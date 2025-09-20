@@ -33,6 +33,8 @@ You can use the `ember new` command to create a new application.
 ember new ember-quickstart --lang en
 ```
 
+<details><summary>What happens</summary>
+
 This one command will create a new directory called `ember-quickstart` and set up a new Ember application inside of it.
 The `--lang en` option sets the app's primary language to English to help improve [accessibility](../../accessibility/application-considerations/).
 Out of the box, your application will include:
@@ -45,13 +47,18 @@ Out of the box, your application will include:
 By providing everything you need to build production-ready web applications in an integrated package,
 Ember makes starting new projects a breeze.
 
+</details>
+
 Let's make sure everything is working properly.
 `cd` into the application directory `ember-quickstart` and start the development server by typing:
+
 
 ```bash
 cd ember-quickstart
 npm start
 ```
+
+<details><summary>What happens</summary>
 
 After a few seconds, you should see output that looks like this:
 
@@ -65,6 +72,8 @@ Build successful (9761ms) – Serving on http://localhost:4200/
 ```
 
 (To stop the server at any time, type Ctrl-C in your terminal.)
+
+</details>
 
 Open [`http://localhost:4200`](http://localhost:4200) in your browser of choice.
 You should see an Ember welcome page and not much else.
